@@ -1,0 +1,40 @@
+body
+{
+    background-image: radial-gradient(circle at 50% -20.71%, #de9c2c 0, #e5922a 8.33%, #ea852b 16.67%, #ee772d 25%, #f16731 33.33%, #f35436 41.67%, #f23c3c 50%, #f01843 58.33%, #ed004c 66.67%, #e90057 75%, #e30064 83.33%, #db0071 91.67%, #d10080 100%);
+}
+
+h1
+{
+    color: #f35436 (38, 0, 225);
+    
+    background-image: linear-gradient(180deg, #ffc0a9 0, #ffb5a6 16.67%, #ffa9a2 33.33%, #f29d9d 50%, #de9297 66.67%, #cc8891 83.33%, #bb7f8b 100%);;
+}
+
+#show_sketch
+{
+    float:right;
+}
+
+canvas
+{
+    border: 5px solid white;
+    border-radius:20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+
+}
+@keyframes example {
+    from{box-shadow: 1px 1px 38px saddlebrown(6, 200, 207);}
+    to{box-shadow: 1px 1px 38px blue;}
+}
+
+
+p
+{
+padding-top:10px;
+font-size:25px;
+}
+
+
